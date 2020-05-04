@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:16px;
+	color:white;
+	background: url("https://images.squarespace-cdn.com/content/v1/5ccc970f7046802e565771ae/1561494405888-DX2W32LSA8I0WYDK0MQN/ke17ZwdGBToddI8pDm48kDVEj010BbXsLnm509AHjVF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWiOgHWyWfC8BdxC_WuXfvhWFtDdzCpB3PJsO8_z2e5f_W3y_yy4MVWH39a9Q36QsA/SCB-COVER-BARS.jpg?format=2500w")no-repeat;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color:whitesmoke;
+	border-radius:0;
+	border:0;
+	border-bottom: 3px solid #8E2123;
+	box-shadow: 10px 10px 10px black;
+	
+ 
+}
+
+#logo-img{
+	background: url("https://img.pngio.com/logo-png-images-download-150543-logo-png-resources-with-logo-black-png-360_360.png")no-repeat;
+	width:350px;
+	height:350px;
+	margin :0px 0px 0px 0px;
+}
+
+.navbar-brand{
+	padding-top:25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Pacifico', cursive;
+	color:saddlebrown;
+	text-transform: uppercase;
+	text-shadow:3px 3px 3px black;
+	font-size: 50px;
+	line-height:2;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{ 
+	background: url("https://png.pngtree.com/png-clipart/20190416/ourmid/pngtree-hand-drawn-cute-beer-png-image_937957.jpg")no repeat;
+	
+}
+.navbar-brand p span{
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	font-style: italic;
+	color:black;
+}
+
+#nav-list{
+	margin-top:10px;
+}
+
+
+#nav-list a{
+	color:black;
+}
+
+#nav-list a:hover{
+	background: #9C9C9C;
+	text-shadow: 3px 3px 3px black;
+	
+}
