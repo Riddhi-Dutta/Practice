@@ -3,7 +3,8 @@
 body{
 	font-size:16px;
 	color:white;
-	background: url("https://images.squarespace-cdn.com/content/v1/5ccc970f7046802e565771ae/1561494405888-DX2W32LSA8I0WYDK0MQN/ke17ZwdGBToddI8pDm48kDVEj010BbXsLnm509AHjVF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWiOgHWyWfC8BdxC_WuXfvhWFtDdzCpB3PJsO8_z2e5f_W3y_yy4MVWH39a9Q36QsA/SCB-COVER-BARS.jpg?format=2500w")no-repeat;
+	background: url("https://images.squarespace-cdn.com/content/v1/5ccc970f7046802e565771ae/1561494405888-DX2W32LSA8I0WYDK0MQN/ke17ZwdGBToddI8pDm48kDVEj010BbXsLnm509AHjVF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWiOgHWyWfC8BdxC_WuXfvhWFtDdzCpB3PJsO8_z2e5f_W3y_yy4MVWH39a9Q36QsA/SCB-COVER-BARS.jpg?format=2500w")no-repeat #000000;
+	
 	font-family: 'Oxygen', sans-serif;
 }
 #header-nav{
@@ -63,4 +64,86 @@ body{
 	background: #9C9C9C;
 	text-shadow: 3px 3px 3px black;
 	
+}
+#nav-list li{
+	font-family: 'cursive';
+	 font-style: oblique;
+}
+
+#phone{
+	text-align: right;
+	
+}
+#phone div{
+	text-align: right;
+	padding-right: 10px;
+}
+.navbar-header button.navbar-toggle,.navbar-header.iconbar{
+	border :10px solid black;
+}
+.container .jumbotron {
+	background:transparent;
+	text-align: center;
+	
+	border: solid #FF0000;
+	box-shadow:3px 3px 3px black;
+}
+.container .jumbotron p span{
+	color:beige;
+	text-weight:400;
+	text-size:1.8em;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow:3px 3px 10px white;
+	
+}
+#menutile,#drinks,#maptile{
+	height:250px;
+	width:100%;
+	margin-left: 1px;
+	margin-bottom: 15px;
+	position:relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	border: solid white;
+}
+#menutile:hover,#drinks:hover,#maptile:hover{
+	box-shadow: 10px 10px 10px white;
+}
+#menutile{
+	background:url("https://lovogallery.com/wp-content/uploads/2019/10/hotel_food_photography_06.jpg")no-repeat;
+	background-position: center;
+}
+#drinks{
+	background:url("https://modernrestaurantmanagement.com/assets/media/2020/01/Unsplash_xBFTjrMIC0c-1200x655.jpg")no-repeat;
+	background-position: center;
+}
+#maptile{
+	background: url("https://goo.gl/maps/nBPNxzqhgLy63Uxj7")no-repeat;
+	background-position: center;
+}
+#menutile span,#drinks span,#maptile span{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	font-size:1.6em;
+	text-transform:uppercase;
+	background-color: #000;
+	color:#FFF;
+	opacity:.8;
+}
+.panel-footer{
+margin-top:30px;
+padding-top:10px;
+background-color: grey;
+	border-top:0;
+
+}
+.row{
+	font-family: "Oxygen";
+	font-style:oblique;
+}
+#copy{
+	font-style: bold;
 }
